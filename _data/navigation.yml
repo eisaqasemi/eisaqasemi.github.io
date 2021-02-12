@@ -1,12 +1,58 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /
+  - title: "AWS"
+    url: /aws/getting-started-with-aws-cdk/quick-start-guide
+  - title: "K8S"
+    url: /k8s/
+  - title: "Ansible"
+    url: /ansible/
+
+# aws tutorial links
+aws:
+  - title: Getting Started with AWS CDK
+    children:
+      - title: "CDK Quick-Start Guide"
+        url: /aws/getting-started-with-aws-cdk/quick-start-guide
+      - title: "Structure"
+        url: /aws/getting-started-with-aws-cdk/structure
+      - title: "Installation"
+        url: /aws/getting-started-with-aws-cdk/installation
+      - title: "A Basic Project"
+        url: /aws/getting-started-with-aws-cdk/a-basic-project
+
+  # - title: AWS Container Management Systems
+  #   children:
+  #     - title: "Quick-Start Guide"
+  #       url: /aws/quick-start-guide
+  #     - title: "Structure"
+  #       url: /aws/structure
+  #     - title: "Installation"
+  #       url: /aws/installation
+  #     - title: "A Basic Project"
+  #       url: /aws/upgrading
+
+  # - title: AWS Databases
+  #   children:
+  #     - title: "Quick-Start Guide"
+  #       url: /aws/quick-start-guide
+  #     - title: "Structure"
+  #       url: /aws/structure
+  #     - title: "Installation"
+  #       url: /aws/installation
+  #     - title: "A Basic Project"
+  #       url: /aws/upgrading
+
+  # - title: Queue Systems
+  #   children:
+  #     - title: "Quick-Start Guide"
+  #       url: /aws/quick-start-guide
+  #     - title: "Structure"
+  #       url: /aws/structure
+  #     - title: "Installation"
+  #       url: /aws/installation
+  #     - title: "A Basic Project"
+  #       url: /aws/upgrading
