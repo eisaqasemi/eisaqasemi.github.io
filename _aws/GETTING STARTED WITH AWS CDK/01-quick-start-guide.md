@@ -10,7 +10,7 @@ tags:
 
 AWS resources can be created and managed in many ways; console, cli, API, and cloudformation.
 Cloudformation is a great tool that defines resources in expressive and easy way in JSON or YAML format. but cloudformation has a few drawbacks.
-1. as the number of resources getting bigger, the cloudformation script gets longer and more challenging.
+1. As the number of resources getting bigger, the cloudformation script gets longer and more challenging.
 2. YAML and JSON are not much flexible and dynamic.
 3. Extending CLoudformation templates is hard.
 
@@ -38,7 +38,7 @@ for(const port of allowed_ports){
 }
 ```
 
-generates the this cloudformation template
+generates this cloudformation template
 
 ``` json
 "sg29196201": {
@@ -78,11 +78,11 @@ generates the this cloudformation template
 },
 ```
 
-AWS CDK has the following advanatages:
+AWS CDK has the following advantages:
 
 1. you can use the full power of programming languages (conditions, loops, classes ...).
 2. programming languages data types helps you to more easily write your infrastructure, code completion saves you a lot time.
 2. less code is more managable and easier to maintain.
-3. you can use modules and inheritance to share and extend your code more effectively with your  colleagues.
-4. as you define resources and relate them together in your code, CDK adjust these resources to meet your requirements, for example it automatcally creates roles, add required rules to security group and etc. you just need to review the resulting cloudformation template.
-4. beside mapping of aws cloudformation types to CDK constructs, AWS has written a lot patterns which you can import them to your projects. these patterns use best practices and creates the whole resources for you, you just need to set the important parameters to adjust it to your needs.
+3. you can use modules and inheritance to share and extend your code more effectively with your colleagues.
+4. as you define resources and relate them together in your code, CDK adjust these resources to meet your requirements, for example it automatcally creates roles, add the required rules to security groups and etc. you just need to review the resulting cloudformation template.
+4. besides the mapping of aws cloudformation types to CDK constructs, AWS has written a lot of patterns which you can import them to your projects. these patterns use the best practices and create the whole resources for you, you just need to set the important parameters to adjust it to your needs.
